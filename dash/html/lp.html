@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600|Open+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/spur.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+    <script src="../js/chart-js-config.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap-table.min.css"/>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <title>Vtp21</title>
+</head>
+
+<body>
+    <div class="dash">
+        <div class="dash-nav dash-nav-dark">
+            <header>
+                <a href="#!" class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <a href="index.html" class="spur-logo"> <span>VTP 21</span></a>
+            </header>
+            <nav class="dash-nav-list">
+                <a href="index.html" class="dash-nav-item">
+                    <i class="fas fa-home"></i> Ana səhifə </a>
+                    <a href="chartjs.html" class="dash-nav-item">
+                        <i class="fas fa-chart-bar"></i> Statistika </a>
+                    </a>
+                <div class="dash-nav-dropdown ">
+                    <a href="#!" class="dash-nav-item dash-nav-dropdown-toggle">
+                        <i class="fas fa-cube"></i> Üzvlər </a>
+                    <div class="dash-nav-dropdown-menu">
+                        <a href="acc.html" class="dash-nav-dropdown-item">Mühasibatlıq</a>
+                        <a href="it.html" class="dash-nav-dropdown-item">Informasiya Texnologiyaları</a>
+                       
+                        <a href="hr.html" class="dash-nav-dropdown-item">İnsan Resursları</a>
+                        <a href="lp.html" class="dash-nav-dropdown-item">Logistika və satınalma</a>
+                        
+                    </div>
+                </div>
+                <a href="typography.html" class="dash-nav-item">
+                    <i class="fas fa-check"></i> Event </a>
+                    <a href="chartjs.html" class="dash-nav-item">
+                        <i class="fas fa-sign-out-alt"></i> Çıxış </a>
+                    </a>
+                          </nav>
+        </div>
+        <div class="dash-app">
+            <header class="dash-toolbar">
+                <a href="#!" class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <div class="tools">
+                    <a href="cards.html" class="tools-item">
+                        <i class="fas fa-bell"></i>
+                        <i class="tools-item-count">4</i>
+                    </a>
+                    <div class="dropdown tools-item">
+                        <a href="#" class="" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-user"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+                            <a class="dropdown-item" href="person.html">Hesab</a>
+                            <a class="dropdown-item" href="login.html">Çıxış</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="dash-content">
+                <div class="container-fluid">
+                  
+                    <div class="container ">
+                        <h1 class="dash-title" style="font-weight: 900; font-size: 64px;  color: #181c2b;">Logistika və Satınalma</h1>
+                          <table data-toggle="table" 
+                         
+                          data-search="true"
+                          data-search-align="right  mb-4" 
+                          
+                        >
+                              <thead>
+                                  <tr>
+                                      <th rowspan="2" data-checkbox="true" data-valign="middle"></th>
+                                      <th colspan="5" data-align="center"></th>
+                                  </tr>
+                                  <tr>
+                                      <th data-field="id" data-sortable="true">#</th>
+                                      <th data-field="name" data-sortable="true">Ad</th>
+                                      <th data-field="sourname" data-sortable="true">Soyad</th>
+                                      <th data-field="age" data-sortable="false">Yaş</th>
+                                      <th data-field="course" data-sortable="false">Kurs</th>
+                                      
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td></td>
+                                      <td>1</td>
+                                      <td>Alvina</td>
+                                      <td>Bayramlı</td>
+                                      <td>18</td>
+                                      <td>2-ci kurs</td>
+                                  </tr>
+                                  <tr>
+                                    <td></td>
+                                    <td>2</td>
+                                    <td>Ceyran</td>
+                                    <td>Bədəlzadə</td>
+                                    <td>19</td>
+                                    <td>3-cü kurs</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>3</td>
+                                    <td>Dinarə</td>
+                                    <td>Abdullayeva</td>
+                                    <td>19</td>
+                                    <td>3-cü kurs</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>4</td>
+                                    <td>Əzizxan</td>
+                                    <td>Şahverdiyev</td>
+                                    <td>21</td>
+                                    <td>1-ci kurs</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>5</td>
+                                    <td>Fatimə</td>
+                                    <td>İsmayılova</td>
+                                    <td>22</td>
+                                    <td>4-cü kurs</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>5</td>
+                                    <td>Kamran</td>
+                                    <td>Kərimli</td>
+                                    <td>19</td>
+                                    <td>3-cü kurs</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>6</td>
+                                    <td>Nərmin</td>
+                                    <td>Daşdəmirova</td>
+                                    <td>22</td>
+                                    <td>1-ci kurs</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>7</td>
+                                    <td>Nigar</td>
+                                    <td>Daşdəmirova</td>
+                                    <td>18</td>
+                                    <td>2-ci kurs</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>8</td>
+                                    <td>Rufan</td>
+                                    <td>Zeynalov</td>
+                                    <td>21</td>
+                                    <td>1-ci kurs</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>9</td>
+                                    <td>Simarə</td>
+                                    <td>Məmmədova</td>
+                                    <td>21</td>
+                                    <td>Məzun</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>10</td>
+                                    <td>Tahirə</td>
+                                    <td>Sadiqbəyli</td>
+                                    <td>20</td>
+                                    <td>3-cü kurs</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>11</td>
+                                    <td>Vəsilə</td>
+                                    <td>Ələkbərli</td>
+                                    <td>20</td>
+                                    <td>3-cü kurs</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>12</td>
+                                    <td>Xədicə </td>
+                                    <td>Məmmədova</td>
+                                    <td>22</td>
+                                    <td>Məzun</td>
+                                </tr>
+                                
+                                
+                              </tbody>
+                          </table>
+                      </div>
+                    <!-- put your rows / columns here -->
+                </div>
+            </main>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+         
+          
+
+
+        </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap-table.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="../js/spur.js"></script>
+</body>
+
+</html>

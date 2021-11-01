@@ -1,3 +1,10 @@
+/*!
+ * spur-template - An admin template based on Bootstrap 4
+ * Version v1.0.2
+ * Copyright 2016 - 2019 Alexander Rechsteiner
+ * https://hackerthemes.com
+ */
+
 const mobileBreakpoint = window.matchMedia("(max-width: 991px )");
 
 $(document).ready(function(){

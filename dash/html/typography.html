@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600|Open+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/spur.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
+    <script src="../js/chart-js-config.js"></script>
+    <link rel="stylesheet" href="../css/evo-calendar.min.css">
+    <link rel="stylesheet" href="../css/evo-calendar.royal-navy.min.css">
+    
+    
+    <title>Vtp21 umumi</title>
+</head>
+
+<body>
+
+    <div class="dash">
+        <div class="dash-nav dash-nav-dark">
+            <header>
+                <a href="#!" class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <a href="index.html" class="spur-logo"> <span>VTP 21</span></a>
+            </header>
+            <nav class="dash-nav-list">
+                <a href="index.html" class="dash-nav-item">
+                    <i class="fas fa-home"></i> Ana səhifə </a>
+                    <a href="chartjs.html" class="dash-nav-item">
+                        <i class="fas fa-chart-bar"></i> Statistika </a>
+                    </a>
+                <div class="dash-nav-dropdown ">
+                    <a href="#!" class="dash-nav-item dash-nav-dropdown-toggle">
+                        <i class="fas fa-cube"></i> Üzvlər </a>
+                    <div class="dash-nav-dropdown-menu">
+                        <a href="acc.html" class="dash-nav-dropdown-item">Mühasibatlıq</a>
+                        <a href="it.html" class="dash-nav-dropdown-item">Informasiya Texnologiyaları</a>
+                       
+                        <a href="hr.html" class="dash-nav-dropdown-item">İnsan Resursları</a>
+                        <a href="lp.html" class="dash-nav-dropdown-item">Logistika və satınalma</a>
+                        
+                    </div>
+                </div>
+                <a href="typography.html" class="dash-nav-item">
+                    <i class="fas fa-check"></i> Event </a>
+                    <a href="login.html" class="dash-nav-item">
+                        <i class="fas fa-sign-out-alt"></i> Çıxış </a>
+                    </a>
+                          </nav>
+        </div>
+        <div class="dash-app">
+            <header class="dash-toolbar">
+                <a href="#!" class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <div class="tools">
+                    <a href="typography.html" class="tools-item">
+                        <i class="fas fa-bell"></i>
+                        <i class="tools-item-count">4</i>
+                    </a>
+                    <div class="dropdown tools-item">
+                        <a href="#" class="" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-user"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+                            <a class="dropdown-item" href="person.html">Hesab</a>
+                            <a class="dropdown-item" href="login.html">Çıxış</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+         <main>
+             <div class="hero">
+<div id="calendar"></div>
+             </div>
+         </main>
+         
+         <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+         <script src="../js/evo-calendar.min.js"></script>
+         <script>
+             $(document).ready(function() {
+    $('#calendar').evoCalendar({
+        
+    })
+})
+$('#calendar').evoCalendar({
+    theme: 'Royal Navy'
+})
+         </script>
+<!-- For adding functionality to the events and person sign and navbar, asagidaki scriptler -->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="../js/jquery.easypiechart.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="../js/spur.js"></script>
+<script src="../js/jquery.easypiechart.js"></script>
+</body>
+</html>
