@@ -87,7 +87,73 @@
     })
 })
 $('#calendar').evoCalendar({
-    theme: 'Royal Navy'
+    theme: 'Royal Navy',
+    calendarEvents: [
+    {
+        id: 'event0', // Event's ID (required)
+        name: "Python və üstünlükləri", // Event name (required)
+        date: "November/1/2021", // Event date (required)
+        description: "İT Şöbəsi ilə görüş",
+        type: "event", // Event type (required)
+        everyYear: false // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Proqram Dəyərləndirmə iclası", // Event name (required)
+        date: "November/1/2021", // Event date (required)
+        description: "Ümumi görüş",
+        type: "event", // Event type (required)
+        everyYear: false // Same event every year (optional)
+      },
+      {
+        id: 'event2', // Event's ID (required)
+        name: " Çatışma yönetimi ve iletişim sanatı-video vebinarı", // Event name (required)
+        date: "November/1/2021", // Event date (required)
+        description: "Ümumi görüş",
+        type: "event", // Event type (required)
+        everyYear: false // Same event every year (optional)
+      },
+      {
+        id: 'event3', // Event's ID (required)
+        name: " Mehmet İzerdem ilə karyera söhbəti", // Event name (required)
+        date: "November/2/2021", // Event date (required)
+        description: "Ümumi görüş",
+        type: "event", // Event type (required)
+        everyYear: false // Same event every year (optional)
+      },
+      {
+        id: 'event4', // Event's ID (required)
+        name: " ACC şöbəsi ilə görüş", // Event name (required)
+        date: "November/2/2021", // Event date (required)
+        description: "ACC şöbəsi ilə görüş",
+        type: "event", // Event type (required)
+        everyYear: false // Same event every year (optional)
+      },
+      {
+        id: 'event5', // Event's ID (required)
+        name: " Elektron hökumət portalında görülən işlər(2ci hissə)", // Event name (required)
+        date: "November/3/2021", // Event date (required)
+        description: "Ümumi görüş",
+        type: "event", // Event type (required)
+        everyYear: false // Same event every year (optional)
+      },
+      {
+        id: 'event6', // Event's ID (required)
+        name: " MS-Excel(2ci hisse)", // Event name (required)
+        date: "November/4/2021", // Event date (required)
+        description: "Ümumi görüş",
+        type: "event", // Event type (required)
+        everyYear: false // Same event every year (optional)
+      },
+      {
+        id: 'event7', // Event's ID (required)
+        name: " Incoterms və gömrük  işləri", // Event name (required)
+        date: "November/5/2021", // Event date (required)
+        description: "Satınalma şöbəsi ilə görüş",
+        type: "event", // Event type (required)
+        everyYear: false // Same event every year (optional)
+      }
+    ]
 })
          </script>
 <!-- For adding functionality to the events and person sign and navbar, asagidaki scriptler -->
@@ -99,5 +165,10 @@ $('#calendar').evoCalendar({
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 <script src="../js/spur.js"></script>
 <script src="../js/jquery.easypiechart.js"></script>
+<footer class="footer bg-light " style="background-color: #fcf8e3;">
+    <div class="footer-copyright text-center py-3 " style=" color: black;">
+        <p class="ml-4 ">&copy; 2021 Buta Group - <a href="https://butagrup.com.tr/?lang=az" target=_blank style="color: rgb(71, 135, 219);">butagroup.az</a> | Bütün hüquqlar qorunur</p>
+          </div>
+</footer>
 </body>
 </html>
