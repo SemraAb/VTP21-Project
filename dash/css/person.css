@@ -404,3 +404,95 @@ header .navbar ul li a:hover{
     box-shadow: 0 0 0 .5rem rgba(255,255,255,.2),
                 0 1rem 2rem rgba(0,0,0,.4);
 }
+#menu{
+    position: fixed;
+    top:2rem; right:2rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding:1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+.car{
+    display: none;
+}
+
+@media (max-width:1200px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .home{
+        padding:1rem 4rem;
+    }
+
+}
+@media (max-width:991px){
+
+    header{
+        left:-120%;
+        display: none;
+    }
+ 
+    #menu{
+        display: block;
+    }
+ 
+    header.toggle{
+     left:0%;
+    }
+ 
+    body{
+        padding:0;
+    }
+ 
+ }
+ 
+ @media (max-width:768px){
+ 
+    html{
+        font-size: 50%;
+        
+    }
+  
+  }
+ 
+ @media (max-width:400px){
+ 
+     header{
+         width: 100vw;
+     }
+ 
+     .heading{
+         margin:0 3rem;
+     }
+ 
+     .about .row .counter .box{
+         width: 100%;
+        
+     }
+     .service .box-container{
+         width: 100%;
+         display: block;
+     }
+  
+     .education .box-container .box{
+         width:100%;
+         display: grid;
+         grid-template-columns: repeat(4,1fr);
+     }
+ 
+     .portfolio .box-container .box{
+         width:100%;
+         display: grid;
+         grid-template-columns: repeat(4,1fr);
+     }
+ 
+     .contact .row form{
+         margin:3rem 0;
+     }
+ 
+  }
