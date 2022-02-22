@@ -10685,12 +10685,12 @@ body {
   color: #fff;
 }
 .dash-toolbar {
-  min-height: 84px;
+  /* min-height: 84px;
   background-color: #f3f3f3;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  /* display: -webkit-box; */
+  /* display: -webkit-flex; */
+  /* display: -ms-flexbox; */
+  /* display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -10700,7 +10700,9 @@ body {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 1000;  */
+  background-color: yellow; 
+
 }
 @media (min-width: 992px) {
   .dash-toolbar {
